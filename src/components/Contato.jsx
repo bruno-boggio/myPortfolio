@@ -13,7 +13,7 @@ return(
             <input type="text" placeholder="Nome" name="name"/>
             <input className="my-4 p-2 bg-[#fff]" type="email" placeholder="Email" name="email"/>
             <textarea className="bg-[#fff] p-2"  name="message" rows="10" placeholder="Mensagem"></textarea>
-            <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">Lets collaborate</button>
+            <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">Enviar Mensagem</button>
         </form>
     </div>
 )
