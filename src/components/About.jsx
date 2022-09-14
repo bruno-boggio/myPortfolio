@@ -1,29 +1,42 @@
-import React from "react";
-import Picture from '../assets/picture.jpg'
+import React, {useState} from "react";
+import Picture from '../assets/bruno-pic.jpg'
+import CgArrowLongDown from 'react-icons/cg'
 
 function About(){
 
-
- return(
+    const [about,setAbout] = useState(false)  
+    const [techs, setTechs] = useState(false)
+    const [courses, setCourses] = useState(false)
+ 
+    return(
     <div name="about" className="back-color w-full h-screen">
-        <div>
-          <h1 className="text-6xl text-white text-center pt-24">Sobre</h1>
-          <div className="text-center mt-12">
-          <img className="pic sm:text-3xl" src={Picture}></img>
-          <div><p className="texto sm:text-2xl text-center">
+        <div className=" text-center pt-1">
+          <div className="text-center mt-1"></div>
+          <img className="pic sm:text-3xl" alt="myself" src={Picture}></img>
           
-              Olá, Meu nome é <strong>Bruno Medeiros</strong>, tenho 27 anos.
-              <br></br>
-              Venho estudando programação desde Janeiro 
-              deste ano e meu foco é trabalhar com Front-End. 
-              Tenho um background comercial no qual trabalhei por mais de 05 anos como vendedor,
-              saindo de promotor de vendas até vendedor de autosserviço,
-              desde que descobri a programação tenho me dedicado
-              totalmente a isso e procuro cada dia me aperfeiçoar
-              mais e aprender novas tecnologias.</p></div>
+          <div className="about-div pb-1">
+            <button type="button" className="about-btn" onClick={ ()=> setAbout(!about)}> Sobre </button>
+            {about === false ? null : <p className="texto">
+            Profissional em transição de carreira para área de tecnologia, tendo foco em
+            desenvolvimento Front-End.
+            </p>
+          }
+          <button className="about-btn" onClick={ ()=> setTechs(!techs)} >Tecnologias</button> 
+          {techs === false ? null : <p className="texto">HTML, CSS, Javascript, React Js, Api's, Jquery, Node, Git & Github </p>}   
 
+          <button className="about-btn" onClick={ ()=> setCourses(!courses)}>Cursos</button> 
+          {courses === false ? null : <ul className="texto">
+
+          <li>Html e Css Essencial (+ 11 horas) </li>   
+
+          <li>Curso programador br FullStack (+70 horas)</li>
+
+          <li>TipsCode React Js (+ 30 horas)</li>   
+
+          </ul>} 
           </div>
         </div>
+        
     </div>
  )
 }

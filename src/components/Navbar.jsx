@@ -15,7 +15,7 @@ function emailCode(){
 }   
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div className="static w-full h-[80px] flex justify-between items-center px-4  bg-[#0a192f] text-gray-300">
             <div>
               
             </div>
@@ -72,7 +72,7 @@ function emailCode(){
 
                   <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-500 bg-blue-500">
                     <a className="flex justify-between items-center w-full text-gray-300" 
-                     href="https://www.linkedin.com/in/bruno-medeiros-02139a231/" target="blank">
+                     href="https://www.linkedin.com/in/bruno-boggio/" target="blank">
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                   </li>

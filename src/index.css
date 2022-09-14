@@ -89,22 +89,42 @@
 
 .pic{
     display: inline-block;
-    border-radius: 30px;
-    max-width: 360px;
-    max-height: 360px;
+    border-radius: 150px;
+    width: 200px;
+    max-height: 250px;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 
-.texto{
-    display: inline-block;
-    margin-top: 2rem;
-    width: 60%;
-    align-items: center;
-    height: 30%;
-    
-}
+
 
 .back-color{
         background: linear-gradient(to right, rgba(116, 144, 170, 0.7), rgb(70, 105, 218))
+}
+
+.about-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem auto;
+    gap: 3px;
+}
+
+.about-btn{
+    color: white;
+    width: 125px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px black solid;
+    background: linear-gradient(to right, rgba(153, 198, 240, 0.7), rgb(83, 111, 202))
+}
+
+.texto{
+    margin:0.3rem auto;
+    color: white;
+    width: 90%;
+    align-items: center;
+    font-size: 15px;
+    max-height: 30%;
 }

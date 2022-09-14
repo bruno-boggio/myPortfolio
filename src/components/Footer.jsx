@@ -19,7 +19,7 @@ function Footer (){
 
 
             <li><a className="text-gray-300" 
-                        href="https://www.linkedin.com/in/bruno-medeiros-02139a231/" target="blank">
+                        href="https://www.linkedin.com/in/bruno-boggio/" target="blank">
                             <FaLinkedin size={30}/>
             </a></li>
 
