@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 import Picture from '../assets/bruno-pic.jpg'
-import CgArrowLongDown from 'react-icons/cg'
+
 
 function About(){
 
-    const [about,setAbout] = useState(false)  
-    const [techs, setTechs] = useState(false)
-    const [courses, setCourses] = useState(false)
+    const [about,setAbout] = useState(true)  
+    const [techs, setTechs] = useState(true)
+    const [courses, setCourses] = useState(true)
  
     return(
     <div name="about" className="back-color w-full h-screen">
