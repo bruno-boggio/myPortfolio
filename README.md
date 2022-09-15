@@ -7,12 +7,11 @@ Criado pra mostrar alguns projetos em que estou trabalhando, para praticar habil
 * Tailwind CSS 
 * Javascript
 * React Js
+* Vercel
 
 ### Libs utilizadas
 * react-icons (biblioteca de ícones) 
 * getform.io/ (biblioteca usada para envio do formulário) 
-*
-
 
 ### Como rodar a aplicação?
 Basta baixar as dependências com o comando 'npm install'
