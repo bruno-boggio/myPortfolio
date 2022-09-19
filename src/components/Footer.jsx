@@ -35,7 +35,7 @@ function Footer (){
         
             
             <li><a className="text-red-300" 
-                        href="/cv-bruno.pdf" download>
+                        href="/bruno-cv.pdf" download>
                             <BsFillPersonLinesFill size={30}/>
             </a></li>
 
